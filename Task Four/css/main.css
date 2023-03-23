@@ -1,0 +1,198 @@
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #2b2b2b;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(../assets/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.overlay{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 10%;
+    padding-top: 100px;
+}
+
+header p{
+    width: 50%;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #2b2b2b;
+    color: white;
+    padding-top: 40px 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.footer p{
+    padding-top: 40px;
+}
+
+.social{
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+  }
+
+.nav-con{
+    width: 550px;
+    height: 50px;
+    float: right;
+    margin-top: 5px;
+}
+.nav-con ul{
+    list-style: none;
+}
+.nav-con li{
+    float: left;
+    height: 26px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+    
+}
+.nav-con li:hover{
+    background-color: #f32c2c;
+    color: white;
+    cursor: pointer;
+}
+.active{
+    background-color: #f32c2c !important;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.round-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(../assets/hands.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+
+.button-group{
+    width: 400px;
+    height: 50px;
+}
+.button{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.normal{
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+.inverted{
+    border: 2px solid #2b2b2b;
+    padding-top: 5px !important;
+}
+.normal:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #2b2b2b;
+    border: 2px solid #2b2b2b;
+    padding-top: 5px !important;
+}
+.inverted:hover{
+    cursor: pointer;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.col-box{
+    width: 100%;
+    height: 300px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 140px;
+    margin-top: 25px;
+}
+
+.egg{
+    width: 100%;
+    height: 100px;
+    background-color: #2b2b2b;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 25px;
+    color: #ffffff
+}
+
+.gang{
+    width: 37%;
+    height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 140px;
+    margin-top: 25px;
+    margin-left: 120px;
+    border-radius: 500px;
+}
+
+
+
+.char-description{
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sub-heading{
+    font-style: italic;
+    text-align: center;
+}
+.eleven{
+    background-image: url(../assets/old_eleven.png);
+    background-size: cover;
+    background-position: center;
+}
+.mike{
+    background-image: url(../assets/old_mike.png);
+    background-size: cover;
+    background-position: center;
+}
+.dustin{
+    background-image: url(../assets/old_dustin.png);
+    background-size: cover;
+    background-position: center;
+}
+.eddie{
+    background-image: url(../assets/zombie.jpg);
+    background-size: cover;
+    background-position: center;
+}
